@@ -1,0 +1,36 @@
+#booking {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  justify-content: center;
+}
+
+#booking td,
+#booking th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  height: 15px;
+  width: 150px;
+}
+
+#booking td {
+  background-color: #e9a5b3;
+  color: #6a0829;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/*Sticky Header */
+#booking th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #850e35;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
